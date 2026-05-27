@@ -201,4 +201,14 @@ text-align: center;
     font-size: 14px;
     color: #555;
     line-height: 1.5;
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
 }
